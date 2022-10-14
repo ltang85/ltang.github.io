@@ -2,96 +2,94 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Li Tang
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Computer Science and Engineering
+      institution: University of Notre Dame, Notre Dame, Indiana, U.S.
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - title: Thesis
+          contents: Performance and Energy Aware Workload Partitioning on Heterogeneous Platforms
+        - title: Advisor
+          contents: Dr. Xiaobo Sharon Hu
+    - title: M.E., Computer Science
+      institution: Huazhong University of Science and Technology, Wuhan, Hubei, China
+      year: 2009
+    - title: B.E., Computer Science
+      institution: Huazhong University of Science and Technology, Wuhan, Hubei, China
+      year: 2007
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Scientist
+      institution: Los Alamos National Laboratory, Los Alamos, NM, U.S.
+      year: 2018 - present
+    - title: Research Associate
+      institution: Brookhaven National Laboratory, Upton, NY, U.S.
+      year: 2017-2018
+    - title: Intern
+      institution: Sandia National Laboratories, Albuquerque, NM, U.S.
+      year: 2011-2011
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Grants
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ocean Modeling in the Language of Tensors
+      year: 2022-2022
+      description:
+        - title: Role
+          contents: PI
+        - title: Funding Organization
+          contents: Information Science and Technology Institute (ISTI), Los Alamos National Laboratory
+        - title: Funding
+          contents: $40,000
+    - title: Performance Modeling of Scientific Codes on Machine Learning Accelerators
+      year: 2021-2021
+      description:
+        - title: Role 
+          contents: PI
+        - title: Funding Organization
+          contents: Information Science and Technology Institute (ISTI), Los Alamos National Laboratory
+        - title: Funding
+          contents: $60,000
 
-- title: Honors and Awards
+
+
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Alamos Awards Program (LAAP) Award
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - Best Paper Award, ISAV 2021
+    - year: 2020
+      items:
+        - Best Paper Award, ISAV 2020
+    - year: 2016
+      items:
+        - Supercomputing Doctoral Showcase
+    - year: 2013
+      items:
+        - R&D 100
 
-- title: Academic Interests
+- title: Academic Services
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Review Board
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - IEEE Transactions on Parallel and Distributed Systems (TPDS)
+    - title: Program Committee
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - ISVLSI, IPDRM
+    - title: Reviewer
+      items:
+        - FGCS, SC, ICCCN, IPDRM, CLUSTER, ISVLSI, JOPLE, JSA, NAS, NPC, PMAM, RTSS, SNTA, ZUSC
+    - title: Mentoring
+      items:
+        - GPU Hackathon 2017, 2018
